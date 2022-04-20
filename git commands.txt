@@ -1,0 +1,33 @@
+*GIT*
+ls
+mkdir project
+ls
+cd project
+git init
+ls 
+ls -a
+ls .git 
+touch <filename.txt>
+git status 
+git add .
+git status
+git commit -m "<filename.txt>"
+
+*[
+ */for editing the file /*
+vi <filename.txt>
+git status 
+git add 
+git status
+]*
+git log 
+REPOSITORY
+new repo (public)---url copy---
+git bash--->> 
+git remote add origin <copied url> 
+git push -u origin main / git push origin main
+
+*/SSH key generate/*
+ssh-keygen -t rsa -b 4096 -C "emailid"
+copy ssh generated key & paste on github -->open github---setting---ssh and gpy key--ssh key --paste it
+
